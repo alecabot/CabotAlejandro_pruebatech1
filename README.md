@@ -18,7 +18,7 @@ Al ejecutar la aplicación, verás un menú con las siguientes opciones:
   1. Crear Empleado
   2. Editar Empleados
   3. Eliminar Empleados
-  4. Buscar por tipo
+  4. Buscar por cargo
   5. Mostrar proyectos
   6. Salir
 Sigue las instrucciones en pantalla para gestionar los empleados.
