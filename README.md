@@ -23,7 +23,7 @@ Al ejecutar la aplicación, verás un menú con las siguientes opciones:
   6. Salir
 Sigue las instrucciones en pantalla para gestionar los empleados.
 
-Cómo Funciona
+## Cómo Funciona
 
 Crear Empleado
   Selecciona la opción 1 y sigue las instrucciones para ingresar el nombre, apellido, cargo, salario y fecha de inicio del nuevo empleado.  
@@ -37,7 +37,8 @@ Mostrar Empleados
   Selecciona la opción 5 para ver la lista de todos los empleados registrados.  
 Salir
   Selecciona la opción 6 para salir de la aplicación.
-Estructura del Proyecto
+  
+## Estructura del Proyecto
   src/main/java/org/example: Contiene las clases principales del proyecto.
   
   - Main.java: Esta clase contiene el método main que inicia la aplicación y maneja la lógica del menú principal para la gestión de empleados.  
