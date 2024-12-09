@@ -25,17 +25,17 @@ Sigue las instrucciones en pantalla para gestionar los empleados.
 
 ## Cómo Funciona
 
-Crear Empleado
+- Crear Empleado
   Selecciona la opción 1 y sigue las instrucciones para ingresar el nombre, apellido, cargo, salario y fecha de inicio del nuevo empleado.  
-Editar Empleados
+- Editar Empleados
   Selecciona la opción 2 para ver la lista de empleados. Ingresa el ID del empleado que deseas modificar y sigue las instrucciones para actualizar sus datos.  
-Eliminar Empleados
+- Eliminar Empleados
   Selecciona la opción 3 para ver la lista de empleados. Ingresa el ID del empleado que deseas eliminar.  
-Buscar por Cargo
+- Buscar por Cargo
   Selecciona la opción 4 y sigue las instrucciones para ingresar el cargo del empleado que deseas buscar. Se mostrará una lista de empleados que coinciden con el cargo ingresado.  
-Mostrar Empleados
+- Mostrar Empleados
   Selecciona la opción 5 para ver la lista de todos los empleados registrados.  
-Salir
+- Salir
   Selecciona la opción 6 para salir de la aplicación.
   
 ## Estructura del Proyecto
