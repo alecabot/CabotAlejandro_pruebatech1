@@ -20,10 +20,10 @@ public class ControladoraPersistencia {
     public void borrarEmpleado(Long id) {
         try {
             empleJPA.destroy(id);
-            System.out.println("proyecto con id: " + id + " borrado correctamente");
+            System.out.println("empleado con id: " + id + " borrado correctamente");
         } catch (NonexistentEntityException ex) {
 //            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println("el proyecto con id " + id +  " no existe");
+            System.out.println("el empleado con id " + id +  " no existe");
 
         }
     }
@@ -43,7 +43,7 @@ public class ControladoraPersistencia {
 
         try {
             empleJPA.edit(pers);
-            System.out.println("proyecto con id: " + pers.getId() + " modificado correctamente");
+            System.out.println("empleado con id: " + pers.getId() + " modificado correctamente");
         } catch (Exception ex) {
             Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }

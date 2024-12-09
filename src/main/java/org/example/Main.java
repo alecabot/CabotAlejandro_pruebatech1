@@ -26,8 +26,8 @@ public class Main {
             System.out.println("* 1. Crear Empleado          *");
             System.out.println("* 2. Editar Empleados        *");
             System.out.println("* 3. Eliminar Empleados      *");
-            System.out.println("* 4. Buscar por tipo         *");
-            System.out.println("* 5. Mostrar proyectos       *");
+            System.out.println("* 4. Buscar por cargo         *");
+            System.out.println("* 5. Mostrar Empleados       *");
             System.out.println("* 6. Salir                   *");
             System.out.println("******************************");
             System.out.print("Seleccione una opción: ");
@@ -182,4 +182,6 @@ public class Main {
         }
         System.out.println();
     }
+
+
 }
