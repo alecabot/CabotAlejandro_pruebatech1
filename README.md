@@ -13,7 +13,7 @@ Este proyecto es una aplicación de consola para la gestión de empleados utiliz
 1. Crea una base de datos en MySQL llamada `empleado`.
 2. Configura las credenciales de la base de datos en el archivo `src/main/resources/META-INF/persistence.xml`.
 
-Uso
+## Uso
 Al ejecutar la aplicación, verás un menú con las siguientes opciones:  
   1. Crear Empleado
   2. Editar Empleados
