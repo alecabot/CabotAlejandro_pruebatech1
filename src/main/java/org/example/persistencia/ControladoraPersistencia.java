@@ -34,7 +34,7 @@ public class ControladoraPersistencia {
 
     public List<Empleado> traerEmpleadosPorTipo (String cargo) {
         List<Empleado> empleados = empleJPA.findEmpleadoEntities();
-        //este metodo elimina los proyectos que no coinciden con el tipo especificado
+        //este metodo lambda elimina los proyectos que no coinciden con el tipo especificado
         empleados.removeIf(empleado -> !empleado.getCargo().equals(cargo));
         return empleados;
     }
