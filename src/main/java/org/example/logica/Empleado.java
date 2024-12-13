@@ -39,25 +39,11 @@ public class Empleado implements Serializable {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
 
     public String getCargo() {
         return cargo;
     }
 
-    public Double getSalario() {
-        return salario;
-    }
-
-    public LocalDate getFechaInicio() {
-        return fechaInicio;
-    }
 
     @Override
     public String toString() {
