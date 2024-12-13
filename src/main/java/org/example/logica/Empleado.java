@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 @Entity
 public class Empleado implements Serializable {
@@ -60,13 +61,12 @@ public class Empleado implements Serializable {
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", cargo='" + cargo + '\'' +
-                ", salario=" + salario +
-                ", fechaInicio=" + fechaInicio +
-                '}';
+        return String.format("%-5d %-15s %-20s %-15s %-12.2f %-10s",
+                id,
+                nombre,
+                apellido,
+                cargo,
+                salario,
+                fechaInicio.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
     }
 }

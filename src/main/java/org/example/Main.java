@@ -172,13 +172,7 @@ public class Main {
         System.out.printf("%-5s %-15s %-20s %-15s %-12s %-10s%n", "ID", "Nombre", "Apellido", "Cargo", "Salario", "Fecha Inicio");
         System.out.println("--------------------------------------------------------------------------------------");
         for (Empleado empleado : empleados) {
-            System.out.printf("%-5d %-15s %-20s %-15s %-12.2f %-10s%n",
-                    empleado.getId(),
-                    empleado.getNombre(),
-                    empleado.getApellido(),
-                    empleado.getCargo(),
-                    empleado.getSalario(),
-                    empleado.getFechaInicio().format(formatter));
+            System.out.println(empleado);
         }
         System.out.println();
     }
